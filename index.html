@@ -1,0 +1,130 @@
+<!DOCTYPE html> <!-- Define que este é um documento HTML5 -->
+<html lang="pt-br"> <!-- Início do documento HTML, especificando o idioma como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="author" content="desconhecido"> <!-- Metadado sobre o autor do documento -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização em dispositivos móveis -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS externo para estilização -->
+    <title>EXEMPLO DE SITE ROLAGEM</title> <!-- Título da página que aparece na aba do navegador -->
+</head>
+<body id="top"> <!-- Início do corpo da página, com ID 'top' para navegação -->
+
+    <div class="container"> <!-- Início do container principal -->
+        <div class="main" id="section0"> <!-- Seção principal com ID 'section0' -->
+            <h1>Links de navegação horizontal</h1> <!-- Título da seção -->
+            <ul class="nav"> <!-- Início da lista não ordenada para navegação -->
+                <li><a href="#section1" class="active">Inicio</a></li> <!-- Link para a seção 'Inicio', com classe ativa -->
+                <li><a href="#section2">Empresas</a></li> <!-- Link para a seção 'Empresas' -->
+                <li><a href="#section3">Sobre</a></li> <!-- Link para a seção 'Sobre' -->
+                <li><a href="#section4">Nossos clientes</a></li> <!-- Link para a seção 'Nossos clientes' -->
+                <li><a href="#end">Contato</a></li> <!-- Link para a seção de contato no final da página -->
+            </ul> <!-- Fim da lista de navegação -->
+        
+             <!-- Inserindo a imagem -->
+             <div class="image-container"> <!-- Container para a imagem -->
+                <img src="https://encurtador.com.br/gXtnr" alt="Descrição da Imagem"> <!-- Substitua pelo caminho da sua imagem -->
+            </div>
+                
+        </div>
+
+        <div class="main" id="section1"> <!-- Seção 'Inicio' com ID 'section1' -->
+            <h2>Inicio</h2> <!-- Título da seção -->
+            <p>Clique no link para ver o efeito de rolagem "suave".</p> <!-- Texto informativo -->
+            
+            <!-- Inserindo a imagem -->
+            <div class="image-container"> <!-- Container para a imagem -->
+                <img src="https://encurtador.com.br/ge9c8" alt="Descrição da Imagem"> <!-- Substitua pelo caminho da sua imagem -->
+            </div>
+        
+            <a href="#section2">Clique aqui para suavizar a rolagem para a seção de "Empresas" abaixo.</a> <!-- Link para a seção 'Empresas' -->
+            <br><br> <!-- Quebras de linha -->
+            <a href="#top">Voltar ao Início</a> <!-- Link para voltar ao topo da página -->
+        </div>
+        
+        
+        <div class="main" id="section2"> <!-- Seção 'Empresas' com ID 'section2' -->
+            <h2>Empresas</h2> <!-- Título da seção -->
+            <p>Clique no link para ver o efeito de rolagem "suave".</p> <!-- Texto informativo -->
+           
+            <!-- Inserindo a imagem -->
+            <div class="image-container"> <!-- Container para a imagem -->
+                <img src="https://encurtador.com.br/Yc6Vt" alt="Descrição da Imagem"> <!-- Substitua pelo caminho da sua imagem -->
+            </div>
+                      
+            <a href="#section3">Clique aqui para suavizar a rolagem para a seção "Sobre" abaixo.</a> <!-- Link para a seção 'Sobre' -->
+            <br><br> <!-- Quebras de linha -->
+            <a href="#top">Voltar ao Início</a> <!-- Link para voltar ao topo da página -->
+        </div>
+
+        <div class="main" id="section3"> <!-- Seção 'Sobre' com ID 'section3' -->
+            <h2>Sobre</h2> <!-- Título da seção -->
+            <p>Clique no link para ver o efeito de rolagem "suave".</p> <!-- Texto informativo -->
+           
+            <!-- Inserindo a imagem -->
+            <div class="image-container"> <!-- Container para a imagem -->
+                <img src="https://encurtador.com.br/CFmKe" alt="Descrição da Imagem"> <!-- Substitua pelo caminho da sua imagem -->
+            </div>
+           
+            <a href="#section4">Clique aqui para suavizar a rolagem para a seção "Nossos clientes" abaixo.</a> <!-- Link para a seção 'Nossos clientes' -->
+            <br><br> <!-- Quebras de linha -->
+            <a href="#top">Voltar ao Início</a> <!-- Link para voltar ao topo da página -->
+        </div>
+
+        <div class="main" id="section4"> <!-- Seção 'Nossos clientes' com ID 'section4' -->
+            <h2>Nossos clientes</h2> <!-- Título da seção -->
+            <p>Clique no link para ver o efeito de rolagem "suave".</p> <!-- Texto informativo -->
+            <br><br> <!-- Quebras de linha -->
+           
+            <!-- Inserindo a imagem -->
+            <div class="image-container"> <!-- Container para a imagem -->
+                <img src="https://encurtador.com.br/F26bb" alt="Descrição da Imagem"> <!-- Substitua pelo caminho da sua imagem -->
+            </div>
+                      
+            <a href="#top">Voltar ao Início</a> <!-- Link para voltar ao topo da página -->
+            <br><br> <!-- Quebras de linha -->
+            <a href="#end">Descer até o Fim da Página</a> <!-- Link para descer até o fim da página -->
+        </div>
+
+        <div class="container"> <!-- Início de um novo container -->
+            <h2>Formulário de Contato</h2> <!-- Título do formulário -->
+            <form id="contactForm"> <!-- Adicionando ID ao formulário -->
+                <div class="form-group"> <!-- Grupo de formulário para nome -->
+                    <label for="name">Nome:</label> <!-- Rótulo para o campo de nome -->
+                    <input type="text" id="name" name="name" required> <!-- Campo de entrada de texto para nome, obrigatório -->
+                </div>
+                <div class="form-group"> <!-- Grupo de formulário para endereço -->
+                    <label for="address">Endereço:</label> <!-- Rótulo para o campo de endereço -->
+                    <input type="text" id="address" name="address" required> <!-- Campo de entrada de texto para endereço, obrigatório -->
+                </div>
+                <div class="form-group"> <!-- Grupo de formulário para telefone -->
+                    <label for="phone">Telefone:</label> <!-- Rótulo para o campo de telefone -->
+                    <input type="tel" id="phone" name="phone" required> <!-- Campo de entrada para telefone, obrigatório -->
+                </div>
+                <div class="form-group"> <!-- Grupo de formulário para e-mail -->
+                    <label for="email">E-mail:</label> <!-- Rótulo para o campo de e-mail -->
+                    <input type="email" id="email" name="email" required> <!-- Campo de entrada para e-mail, obrigatório -->
+                </div>
+                <input type="submit" value="Enviar"> <!-- Botão para enviar o formulário -->
+            </form> <!-- Fim do formulário -->
+        </div>
+        
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Impede o envio padrão do formulário
+                // Aqui você pode adicionar qualquer lógica que deseja executar ao enviar o formulário.
+        
+                // Limpa os campos do formulário
+                this.reset(); // Reseta os campos do formulário
+            });
+        </script>
+        
+        <br><br> <!-- Quebras de linha -->
+       
+        <center><div style="background-color: lightblue; width: 20%; height: 25px;"><a href="#top">Voltar ao Início</a></div> <!-- Div com estilo para voltar ao início -->
+    <!-- Seção no final da página -->
+   
+    <div id="end"></div> <!-- Div com ID 'end', utilizada para navegação -->
+    
+</body>
+</html>
+
