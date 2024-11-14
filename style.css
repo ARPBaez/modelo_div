@@ -1,0 +1,153 @@
+html {                             /* Seleciona o elemento HTML */
+    scroll-behavior: smooth;      /* Define um comportamento suave para rolagem */
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão como Arial ou, se não disponível, uma fonte sans-serif */
+}
+
+
+/*body {
+    background-color: #110271;  Fundo escuro 
+    color: #ffffff; Texto claro 
+    margin: 0; Remove margens padrão 
+    padding: 0;  Remove preenchimentos padrão 
+}*/ 
+
+
+body {
+    background-image: url('blue2.jpg'); /* Insira o caminho para a sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área do fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: #ffffff; /* Texto claro */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+}
+
+
+.container {
+    max-width: 1080px; /* Limita a largura máxima */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 20px; /* Adiciona preenchimento interno */
+}
+
+h1 {                                /* Seleciona o elemento h1 */
+    color: #ffffff;                 /* Define a cor do texto como branco */
+    text-align: center;             /* Alinha o texto ao centro */
+    padding-top: 3%;                /* Adiciona um espaço de 3% na parte superior */
+}
+
+.nav {                              /* Seleciona o elemento com a classe "nav" */
+    background-color: #333;         /* Define a cor de fundo como cinza escuro */
+    list-style-type: none;          /* Remove os marcadores da lista */
+    text-align: center;             /* Alinha o conteúdo da nav ao centro */
+    height: 60px;                   /* Define a altura da nav como 60 pixels */
+    display: flex;                  /* Usa flexbox para layout */
+    align-items: center;            /* Centraliza os itens verticalmente */
+    justify-content: center;        /* Centraliza os itens horizontalmente */
+    margin: 0;                      /* Remove as margens externas */
+    padding: 0;                     /* Remove o preenchimento interno */
+    margin-bottom: 20px;            /* Adiciona um espaço de 20 pixels na parte inferior */
+}
+
+
+.nav li {
+    display: inline-block;  /* Define o elemento como inline-block, permitindo que ele tenha largura e altura e fique ao lado de outros elementos, como texto */
+    font-size: 18px; /* Tamanho da fonte */
+    padding: 10px; /* Preenchimento interno */
+}
+
+.nav li a {
+    color: #ffffff; /* Cor do texto */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.nav li a:hover {
+    background-color: #09d924; /* Cor ao passar o mouse */
+}
+
+.main {
+    height: 600px; /* Define a altura da div como 200 pixels */
+    background-color: #4d97e6; /* Cor de fundo para visualização */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px; /* Preenchimento interno */
+    margin-bottom: 20px; /* Espaço inferior */
+    color:#ffffff;
+}
+
+.main a{
+    color:#080808
+}
+.main a:hover{
+    color: #7d095c;
+    font-style: oblique;
+}
+
+h2 {
+    color: #ffffff; /* Branco */
+    margin-bottom: 10px; /* Espaço inferior */
+}
+
+.image-container {
+    text-align: center; /* Centraliza a imagem horizontalmente */
+    margin: 20px 0; /* Adiciona um espaço acima e abaixo da imagem */
+}
+
+.image-container img {
+    width: 9cm; /* Define a largura da imagem */
+    height: 9cm; /* Define a altura da imagem */
+    object-fit: cover; /* Mantém a proporção e preenche o espaço sem distorção */
+}
+
+
+.form-container {
+    background-color: black; /* Cinza claro */
+    border-radius: 10px;
+    padding: 20px; /* Preenchimento interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    max-width: 15cm; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+.form-group {
+    margin-bottom: 25px; /* Espaço entre os grupos de campos */
+}
+
+label {
+    margin-bottom: 5px; /* Espaço entre o label e o campo */
+    display: block; /* Exibe o label como bloco */
+    color: #ffffff; /* Cor escura para o texto do label */
+}
+
+input[type="text"],              /* Seleciona campos de texto */
+input[type="tel"],               /* Seleciona campos de telefone */
+input[type="email"] {            /* Seleciona campos de e-mail */
+    padding: 10px;               /* Adiciona 10 pixels de preenchimento interno nos campos */
+    width: 95%;                  /* Faz os campos ocuparem 95% da largura disponível */
+    border: 1px solid #ccc;      /* Define uma borda padrão de 1 pixel e cor cinza clara */
+    border-radius: 5px;          /* Arredonda os cantos da borda em 5 pixels */
+}
+
+
+input[type="submit"] {
+    background-color: #2196F3; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px; /* Preenchimento do botão */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+input[type="submit"]:hover {
+    background-color: #1976D2; /* Cor de fundo ao passar o mouse */
+}
+
+.return-container {
+    text-align: center; /* Centraliza o texto do link de retorno */
+    margin-top: 20px; /* Espaço acima do link */
+}
+
+.return {
+    color: #ffffff; /* Cor do texto do link */
+    text-decoration: underline; /* Sublinha o link */
+}
